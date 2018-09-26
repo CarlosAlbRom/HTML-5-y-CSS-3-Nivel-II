@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+div.home {
+	width: 60%;
+	height: 600px;
+	background-color: #777;
+}
+
+.front {
+	width: 60%;
+	height: 600px;
+	background-color: #777;
+}
