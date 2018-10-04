@@ -1,0 +1,55 @@
+/*~ (alt+126)*/
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.container p ~ p {
+	color: green;
+}
+
+p {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+li a {
+	color: black;
+	text-decoration: none;
+	margin: 10px 10px;
+}
+
+li:hover {
+	background:  green;
+}
+
+li a:active {
+	color: black;
+}
+
+ul li:first-child {
+	background: green;
+}
+
+ul li:first-child a {
+	color: white;
+}
+
+ul li:nth-child(3) a {
+	color: pink;
+}
+
+li:hover a {
+	color: white;
+}
+
+ul li:nth-child(2n) a {
+	color: darkgreen;
+}

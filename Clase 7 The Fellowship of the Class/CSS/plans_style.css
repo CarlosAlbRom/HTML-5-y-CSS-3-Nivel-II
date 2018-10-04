@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+div.plan__container {
+	width: 25%;
+	height: 400px;
+	border: black solid 1px;
+	text-align: center;
+}
+div.plan__header {
+	width: 90%;
+	height: 25%;
+	border: black solid 1px;
+	text-align: center;
+	margin: 5% 5% 0 5%;
+}
+ul.plan__body__list li{
+	padding: 3% 0%;
+	width: 90%;
+	margin: 0 5%;
+	border: black solid 1px;
+	border-top: none;
+	list-style: none;
+}
+ul.plan__body__list li:nth-child(2n) {
+	background: grey;
+}
+div.plan__buy{
+	width: 90%;
+	height: 17.5%;
+	text-align: center;
+	margin: 0 5%;
+	border-bottom-right-radius: 30px;
+	background: darkblue;
+}
+div.plan__buy a {
+	color: white;
+	text-decoration: none;
+}
