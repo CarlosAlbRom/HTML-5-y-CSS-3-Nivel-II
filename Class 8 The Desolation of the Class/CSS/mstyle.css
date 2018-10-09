@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+body{
+	text-align: center;
+}
+header{
+	height: 70px;
+	width: 100%;
+	background: #fff;
+}
+figure{
+	height: 60px;
+	float: left;
+	margin: 5px 0 0 5%;
+}
+figure img{
+	height: 60px;
+}
+nav{
+	float: right;
+	margin: 26px 5% 0 0;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 7px;
+}
+nav ul li:first-child a{
+	color: #796AD9;
+}
+nav ul li + li a {
+	color: black;
+}
+.bruce{
+	height: 320px;
+	width: 100%;
+	background-image: url("../img/banner-1.jpeg");
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;
+}
+.bruce__cover{
+	height: 100%;
+	background: rgba(121,106,217,.5);
+}
+h1{
+	color: #fff;
+	font-size: 70px;
+	position: relative;
+	top: 80px;
+}
+h1 + a{
+	width: 12.5%;
+	background: #FFD770;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	text-align: center;
+	padding: 15px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+h2{
+	font-weight: 500;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.services__categorie{
+	width: 20%;
+	height: 250px;
+	display: inline-block;
+	margin: 25px 1.5%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+.services__categorie:hover{
+	transform: scale(1.1) translateY(-10px); 
+}
+.services__categorie:nth-child(2){
+	background: #FFD770;
+}
+.services__categorie:nth-child(2):hover{
+	background-color: #796AD9;
+}
+.services__categorie:nth-child(3){
+	background: #89D9E8;
+}
+.services__categorie:nth-child(3):hover{
+	background-color: #796AD9;
+}
+.services__categorie:nth-child(4){
+	background: #E15FE8;
+}
+.services__categorie:nth-child(4):hover{
+	background-color: #796AD9;
+}
+.services__categorie:nth-child(5){
+	background: #B285FF;
+}
+.services__categorie:nth-child(5):hover{
+	background-color: #796AD9;
+}
+.services__categorie__img{
+	width: 55%;
+	height: 137.5px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 20px 0 0 22.5%;
+}
+article img{
+	position: relative;
+	top: 25px;
+	width: 60%;
+}
+h3 {
+	margin-top: 25px;
+}
